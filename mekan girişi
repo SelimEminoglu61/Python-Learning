@@ -1,0 +1,8 @@
+yas =int(input("yasınızı girin"))
+
+if yas > 18:
+    print("mekana giris izni verildi")
+elif yas == 18:
+    print("doldurduysanız giris var")
+else:
+    print("giris izni yok")
